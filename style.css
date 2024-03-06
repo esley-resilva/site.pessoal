@@ -1,0 +1,103 @@
+header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #62048d;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(248, 211, 231, 0.5);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.item-menu{
+    flex: 1;
+    background-color: #5604a1;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    background-color: #722cf3;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.logo{
+    flex: 1;
+    background-color: #ce2f5144;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.banner{
+    flex: 1;
+    background-color: #4d001a44;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: medium;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.introducao{
+    flex: 1;
+    background-color: #cc000044;
+    margin: 10px;
+    height: 100px;
+}
+
+p{
+    text-align: center;
+}
+
+.logo{
+    height: 100px;
+    width: 300px;
+}
+
+.banner{
+    height: 100px;
+    flex: 1;
+}
+h5{
+   font-size: smaller; 
+   color: #05011a;
+}
+h6{
+    text-align: center;
+    color: rgb(9, 1, 122);
+    font-size: smaller;
+
+}
